@@ -4,7 +4,7 @@ public class SmokesInOwnRoom implements SmokingHabits {
 
 	@Override
 	public void smoke() {
-		System.out.println("..smoking in own room, with window open.");
+		System.out.print("..smoking in own room, with window open.");
 
 	}
 

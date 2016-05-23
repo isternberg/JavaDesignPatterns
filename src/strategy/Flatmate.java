@@ -1,9 +1,14 @@
 package strategy;
 
-public abstract class Flatmate {
+public class Flatmate {
 
 	public Flatmate() {
 
+	}
+
+	public Flatmate(SmokingHabits smokingHabits, CleaningHabits cleaningHabits) {
+		this.smokingHabits = smokingHabits;
+		this.cleaningHabits = cleaningHabits;
 	}
 
 	SmokingHabits smokingHabits;

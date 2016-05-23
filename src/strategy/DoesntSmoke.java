@@ -4,7 +4,7 @@ public class DoesntSmoke implements SmokingHabits {
 
 	@Override
 	public void smoke() {
-		System.out.println("..not smoking");
+		System.out.print("..not smoking.");
 	}
 
 }
