@@ -2,5 +2,5 @@ package strategy;
 
 public interface CleaningHabits {
 
-	public void clean();
+	public String clean();
 }

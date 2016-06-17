@@ -3,19 +3,18 @@ package strategy;
 public class App {
 
 	public static void main(String[] args) {
-		Flatmate smokeyButCleanJohn = new Flatmate(new SmokesEveryWhere(), new CleanRegularly());
-		System.out.println("John the clean smoker: ");
-		smokeyButCleanJohn.doSmoke();
-		smokeyButCleanJohn.doClean();
 
-		Flatmate messyNonSmokerGeorge = new Flatmate(new DoesntSmoke(), new CleanNowAndThan());
-		System.out.println("\nGeorge the messy nonsmoker:");
-		messyNonSmokerGeorge.doSmoke();
-		messyNonSmokerGeorge.doClean();
+		Flatmate smokeyJohn = new Flatmate("John",
+				() -> "smoking everywhere", () -> "cleaning the flat regularly");
+		System.out.println(smokeyJohn.toString());
 
-		Flatmate ringo = new Flatmate(new SmokesInOwnRoom(), new CleanNowAndThan());
-		System.out.println("\nRingo	 the quiet flatmate:");
-		ringo.doSmoke();
-		ringo.doClean();
+		Flatmate messyGeorge = new Flatmate("Paul",
+				() -> "will never smoke", () -> "cleaning whenever you remind me to" );
+		System.out.println(messyGeorge.toString());
+
+		Flatmate Ringo = new Flatmate("Ringo",
+				() -> "smoking in own room", () -> "never cleaning");
+		System.out.println(Ringo.toString());
+
 	}
 }
