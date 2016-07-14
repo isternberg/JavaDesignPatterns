@@ -12,15 +12,15 @@ parameter combinations. This pattern uses a builder object, which receives the i
 then returns the constructed object. [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/builder" > source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Decorator_pattern">decorator pattern</a> 
-adds functionality to an existing object by wrapping it. This way the original class doesn't have to change.
-Using the decorator pattern allows for modifiying the behaviour a single object, without having to create a special subclass just
-for it. [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/decorator" >source code</a>]
+adds functionality to an existing object by wrapping it. 
+Using the decorator pattern allows for crating objects with various behaviours, without having to create special subclasses just
+for these behaviours. [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/decorator" >source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Facade_pattern">facade pattern</a>
 provides a simple interface to the client, while hiding the complexities of the larger system. [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/decorator">source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)">factory pattern</a>
-provide a common interface for creating various objects. By doing that it also hides the instantiation logic from the client.
+provides a common interface for creating various objects. By doing that it also hides the instantiation logic from the client.
 [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/factory">source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Abstract_factory_pattern">abstract factory pattern</a>
@@ -32,7 +32,7 @@ allows an object (called the subject) to maintain a list of its dependents (call
 [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/observer">source code</a>]
 
 The <a href="http://javapapers.com/design-patterns/state-design-pattern/">state pattern</a>
-provides a mechanism to change behavior of an object based on it’s state.
+provides a mechanism to change behaviour of an object based on it’s state.
 [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/state">source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Strategy_pattern">strategy pattern</a>
