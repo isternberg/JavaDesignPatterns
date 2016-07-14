@@ -1,4 +1,4 @@
-package factoryMethod;
+package abstractFactory;
 
 public class WoodenToy extends Product {
 
