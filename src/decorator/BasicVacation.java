@@ -8,7 +8,7 @@ public class BasicVacation implements Vacation {
 
 	@Override
 	public String getDescription() {
-		return "Flight Ticket";
+		return "Flight-Ticket";
 
 	}
 

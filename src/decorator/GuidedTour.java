@@ -12,7 +12,7 @@ public class GuidedTour extends VacationDecorator {
 
 	@Override
 	public String getDescription() {
-		return vacation.getDescription() + " Guided Tour";
+		return vacation.getDescription() + " Guided-Tour";
 	}
 
 	@Override
