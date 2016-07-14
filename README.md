@@ -17,7 +17,7 @@ Using the decorator pattern allows for crating objects with various behaviours, 
 for these behaviours. [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/decorator" >source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Facade_pattern">facade pattern</a>
-provides a simple interface to the client, while hiding the complexities of the larger system. [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/decorator">source code</a>]
+provides a simple interface to the client, while hiding the complexities of the larger system. [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/facade">source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)">factory pattern</a>
 provides a common interface for creating various objects. By doing that it also hides the instantiation logic from the client.
