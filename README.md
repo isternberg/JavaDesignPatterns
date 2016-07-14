@@ -24,7 +24,12 @@ provide a common interface for creating various objects. By doing that it also h
 [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/factory">source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Abstract_factory_pattern">abstract factory pattern</a>
-[<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/factory">source code</a>]
+abstracts a group of individual factories that have a common theme without specifying their concrete classes.
+[<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/abstractFactory">source code</a>]
+
+The <a href="https://en.wikipedia.org/wiki/Observer_pattern">observer pattern</a>
+allows an object (called the subject) to maintain a list of its dependents (called observers) and notify them automatically of any state changes.
+[<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/observer">source code</a>]
 
 
 
