@@ -7,6 +7,8 @@ public class CityToilet {
     ToiletState toiletOccupied;
     ToiletState toiletOutOfOder;
 
+    int usageCounter = 0;
+
     public CityToilet() {
         toiletFree = new ToiletFree(this);
         toiletOccupied = new ToiletOccupied(this);
@@ -22,6 +24,11 @@ public class CityToilet {
     }
 
     public void insertCoin(){
+        // simulating a Planned obsolescence "feature"
+        usageCounter++;
+        if (usageCounter > 2){
+            toiletState = toiletOutOfOder;
+        }
         toiletState.insertCoin();
     }
 
