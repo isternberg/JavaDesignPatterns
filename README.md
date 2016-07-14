@@ -31,5 +31,19 @@ The <a href="https://en.wikipedia.org/wiki/Observer_pattern">observer pattern</a
 allows an object (called the subject) to maintain a list of its dependents (called observers) and notify them automatically of any state changes.
 [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/observer">source code</a>]
 
+The <a href="http://javapapers.com/design-patterns/state-design-pattern/">state pattern</a>
+provides a mechanism to change behavior of an object based on it’s state.
+[<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/state">source code</a>]
+
+The <a href="https://en.wikipedia.org/wiki/Strategy_pattern">strategy pattern</a>
+allows the behaviour of an algorithem to be selected at runtime.
+[<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/strategy">source code</a>]
+
+The <a href="https://en.wikipedia.org/wiki/template_pattern">template pattern</a>
+defines a structure (or a template) for an algorithem. Subclasses can override various steps of the algorithem, while still
+maintaining the predefined structure.
+[<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/template">source code</a>]
+
+
 
 
