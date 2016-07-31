@@ -17,10 +17,6 @@ public class User {
         this.isActive = isActive;
     }
 
-    public Builder newBuilder() {
-        return Builder.fromUser(this);
-    }
-
     @Override
     public String toString() {
         return "User{" +
@@ -41,16 +37,6 @@ public class User {
         private int age;
         private boolean isActive;
 
-        public static Builder fromUser(User user) {
-            Builder builder = new Builder();
-            builder.id = user.id;
-            builder.name = user.name;
-            builder.title = user.title;
-            builder.description = user.description;
-            builder.age = user.score;
-            builder.isActive = user.isActive;
-            return builder;
-        }
 
         public Builder setId(String id) {
             this.id = id;
@@ -76,7 +62,6 @@ public class User {
             this.age = age;
             return this;
         }
-
 
         public Builder setActive(boolean male) {
             this.isActive = male;
