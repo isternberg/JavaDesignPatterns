@@ -32,7 +32,7 @@ allows an object (called the subject) to maintain a list of its dependents (call
 [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/observer">source code</a>]
 
 The <a href="http://javapapers.com/design-patterns/state-design-pattern/">state pattern</a>
-provides a mechanism to change behaviour of an object based on it’s state.
+provides a mechanism to change the behaviour of an object based on it’s state.
 [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/state">source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Strategy_pattern">strategy pattern</a>
