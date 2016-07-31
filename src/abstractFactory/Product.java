@@ -8,7 +8,7 @@ public abstract class Product {
 		System.out.println("Designing " + name);
 	}
 
-	protected void assambleProduct(String name) {
+	protected void assembleProduct(String name) {
 		System.out.println("Assembling " + name);
 	}
 

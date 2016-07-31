@@ -20,10 +20,10 @@ public class FlightPriceObserver implements  Observer {
         this.economyPrice = economyPrice;
         this.businessPrice = businessPrice;
         this.firstClassPrice = firstClassPrice;
-        printThePrices();
+        printPrices();
     }
 
-    public void printThePrices(){
+    public void printPrices(){
         System.out.println(observerID + ": Eceonmy: " + economyPrice + "\tBusiness: " +
                 businessPrice + " \tFirstClass: " + firstClassPrice );
     }
