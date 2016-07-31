@@ -4,15 +4,19 @@ import java.math.*;
 
 public class Hotel extends VacationDecorator {
 
-	BigDecimal price = new BigDecimal("700.98");
+	private BigDecimal price;
+	private String description;
+
 
 	protected Hotel(Vacation vacation) {
 		super(vacation);
+		price = new BigDecimal("700.98");
+		description = " Hotel";
 	}
 
 	@Override
 	public String getDescription() {
-		return vacation.getDescription() + " Hotel";
+		return vacation.getDescription() + this.description;
 	}
 
 	@Override

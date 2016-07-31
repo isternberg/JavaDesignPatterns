@@ -4,18 +4,22 @@ import java.math.*;
 
 public class BasicVacation implements Vacation {
 
-	BigDecimal price = new BigDecimal("400.99");
+	private BigDecimal price;
+	private String description;
+
+	public BasicVacation() {
+		price = new BigDecimal("400.99");
+		description = "Flight-Ticket";
+	}
 
 	@Override
 	public String getDescription() {
-		return "Flight-Ticket";
-
+		return description;
 	}
 
 	@Override
 	public BigDecimal getPrice() {
 		return this.price;
-
 	}
 
 }

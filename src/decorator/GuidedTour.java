@@ -4,15 +4,18 @@ import java.math.*;
 
 public class GuidedTour extends VacationDecorator {
 
-	BigDecimal price = new BigDecimal("400.01");
+	private BigDecimal price;
+	private String description;
 
 	protected GuidedTour(Vacation vacation) {
 		super(vacation);
+		price = new BigDecimal("400.01");
+		description = " Guided-Tour";
 	}
 
 	@Override
 	public String getDescription() {
-		return vacation.getDescription() + " Guided-Tour";
+		return vacation.getDescription() + this.description;
 	}
 
 	@Override
