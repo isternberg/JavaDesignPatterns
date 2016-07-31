@@ -8,9 +8,9 @@ public class HelpDesk {
         this.historyService = new HistoryService();
     }
 
-    FAQService faqService;
-    ContactForm contactForm;
-    HistoryService historyService;
+    private FAQService faqService;
+    private ContactForm contactForm;
+    private HistoryService historyService;
 
     public void readFAQ() {
         faqService.getFAQ();
