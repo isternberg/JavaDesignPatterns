@@ -13,7 +13,7 @@ then returns the constructed object. [<a href="https://github.com/isternberg/Jav
 
 The <a href="https://en.wikipedia.org/wiki/Decorator_pattern">decorator pattern</a> 
 adds functionality to an existing object by wrapping it. 
-Using the decorator pattern allows for crating objects with various behaviours, without having to create special subclasses just
+Using the decorator pattern allows for creating objects with various behaviours, without having to create special subclasses just
 for these behaviours. [<a href="https://github.com/isternberg/JavaDesignPatterns/tree/master/src/decorator" >source code</a>]
 
 The <a href="https://en.wikipedia.org/wiki/Facade_pattern">facade pattern</a>
