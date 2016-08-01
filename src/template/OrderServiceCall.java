@@ -15,6 +15,6 @@ public class OrderServiceCall extends IncomingCall {
 
 	protected void giveSpecialOffer() {
 		System.out.println("..Telling customer about sale items.");
-	};
+	}
 
 }

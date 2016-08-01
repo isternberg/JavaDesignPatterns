@@ -19,7 +19,7 @@ public class CityToilet {
 
     }
 
-    public void setToiletState(ToiletState newToiletState) {
+    protected void setToiletState(ToiletState newToiletState) {
         this.toiletState = newToiletState;
     }
 
@@ -29,6 +29,7 @@ public class CityToilet {
         if (usageCounter > 2){
             toiletState = toiletOutOfOder;
         }
+
         toiletState.insertCoin();
     }
 

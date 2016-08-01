@@ -10,7 +10,6 @@ public class SupportServiceCall extends IncomingCall {
 	@Override
 	protected void helpCustomer() {
 		System.out.println("..Answering customer questions.");
-
 	}
 
 	@Override

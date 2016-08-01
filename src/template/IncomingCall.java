@@ -16,9 +16,7 @@ public abstract class IncomingCall {
 
 	protected abstract void helpCustomer();
 
-	protected void giveSpecialOffer() {
-
-	};
+	protected void giveSpecialOffer() {};
 
 	public boolean customerInterestedInSaleItems() {
 		return true;
